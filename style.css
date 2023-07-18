@@ -1,7 +1,11 @@
-body {
-    font-family: Arial, sans-serif;
-  }
-     
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body{
+    background: #fff; 
+    font-family: 'Montserrat', sans-serif;
+    color: #3E363F;
+}
+
   h1 {
     text-align: center;
     margin-top: 50px;
@@ -13,18 +17,18 @@ body {
     padding: 10px;
     font-size: 18px;
     width: 250px;
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
   }
      
   #guess-button {
     display: block;
     margin: 0 auto;
     padding: 10px 20px;
-    font-size: 18px;
-    background-color: #0CBABA;
-    color: #fff;
+    font-size: 19px;
+    background-color: #7fd65f ;
+    color: #0b0b0b;
     border: none;
-    border-radius: 3px;
+    border-radius: 10px;
   }
      
   button:active {
@@ -33,9 +37,9 @@ body {
      
   .letter {
       border: 1px solid black;
-      padding: 3px;
-      margin: 3px;
-      min-width: 20px;
+      padding: 5px;
+      margin: 6px;
+      min-width: 30px;
       text-align: center;
       display: inline-block
   }
